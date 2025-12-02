@@ -63,6 +63,30 @@ const arthmeticChain = (n2 - n1) * n3 % n4;
 // is under?
 const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
 
+// Before continuing, go back through your code and add console log statements for each check. 
+// Use string concatenation or template literals to format the outputs in a reasonable way.
+// For example, instead of console.log(isValid), we could write console.log (`The four numbers are valid according to the provided criteria: ${isValid}.`) or something similar.
+// gonna come back to this later
+const 
 console.log (`The four numbers are valid according to the provided criteria: ${isValid}.`)
 
+//You are planning a cross-country road trip!
 
+// The distance of the trip, in total, is 1,500 miles.
+// Your car’s fuel efficiency is as follows:
+// At 55 miles per hour, you get 30 miles per gallon.
+// At 60 miles per hour, you get 28 miles per gallon.
+// At 75 miles per hour, you get 23 miles per gallon.
+// You have a fuel budget of $175.
+// The average cost of fuel is $3 per gallon.
+
+// I'm going to calculate the average mpg
+// const averageMPG = (30 + 28 + 23) / 3;
+// Dividing distance by average mpg 
+// actually I read more of the problem and see it wants per speed, which is unrealistic to maintain in the real world
+
+const distance = 1500;
+const gallonCost = 3;
+const budget = 175;
+
+const 55mphfuel = 
